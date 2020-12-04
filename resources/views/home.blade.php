@@ -1,10 +1,10 @@
 <x-app-layout>
     <x-slot name="title">
-        Breze
+         {{ config('app.name')}}
     </x-slot>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('Home') }}
         </h2>
     </x-slot>
 
